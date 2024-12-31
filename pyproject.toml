@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "<package_name>"
-authors = ["<author>"]
+name = "PACKAGE_NAME"
+authors = ["AUTHOR"]
 description = ""
 include = ["CHANGELOG.md"]
 readme = "README.md"
@@ -20,10 +20,10 @@ pytest-cov = "^6.0.0"
 pytest-mock = ">=3.14"
 
 [tool.poetry.scripts]
-<package_name> = "<package_name>.main:main"
+PACKAGE_NAME = "PACKAGE_NAME.main:main"
 
 [tool.poetry.urls]
-changelog = "https://github.com/<github_user_name>/<package_name>/blob/master/CHANGELOG.md"
+changelog = "https://github.com/NTFSvolume/PACKAGE_NAME/blob/master/CHANGELOG.md"
 
 [tool.pytest.ini_options]
 addopts = "--cov --cov-report=html"
@@ -33,7 +33,7 @@ minversion = "8.3"
 testpaths = ["tests"]
 
 [tool.ruff]
-exclude = ["<package_name>/dependencies"]
+exclude = ["PACKAGE_NAME/dependencies"]
 line-length = 120
 target-version = "py311"
 

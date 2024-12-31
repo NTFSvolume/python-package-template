@@ -4,11 +4,11 @@
 
 A base repo for a Python package using poetry for project management
 
-[![PyPI - Version](https://img.shields.io/pypi/v/<package_name>?logo=pypi)](https://pypi.org/project/<package_name>/)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/<package_name>?logo=python)](https://pypi.org/project/<package_name>/)
-[![GitHub License](https://img.shields.io/github/license/<github_user>/<github_repo_name>)](https://github.com/<github_user>/<github_repo_name>/blob/master/LICENSE)
-[![PyPI - Downloads](https://img.shields.io/pypi/dm/<package_name>)](https://pypistats.org/packages/<package_name>)
-[![linting - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/<github_user>/<github_repo_name>/actions/workflows/ruff.yaml)
+[![PyPI - Version](https://img.shields.io/pypi/v/PACKAGE_NAME?logo=pypi)](https://pypi.org/project/PACKAGE_NAME/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/PACKAGE_NAME?logo=python)](https://pypi.org/project/PACKAGE_NAME/)
+[![GitHub License](https://img.shields.io/github/license/NTFSvolume/python-package-template)](https://github.com/NTFSvolume/python-package-template/blob/master/LICENSE)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/PACKAGE_NAME)](https://pypistats.org/packages/PACKAGE_NAME)
+[![linting - Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/NTFSvolume/python-package-template/actions/workflows/ruff.yaml)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
 </div>
@@ -36,10 +36,10 @@ You can use this template if:
 
 Search the entire tree and replace this 4 strings
 
-- `<author>`: Your name
-- `<github_repo_name>`: Your GitHub repo name
-- `<github_user_name>`: Your GitHub username
-- `<package_name>`: The name you what to use for the package
+- `AUTHOR`: Your name
+- `python-package-template`: Your GitHub repo name
+- `NTFSvolume`: Your GitHub username
+- `PACKAGE_NAME`: The name you what to use for the package
 
 
 ## TODO

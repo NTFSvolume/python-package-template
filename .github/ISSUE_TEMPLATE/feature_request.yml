@@ -18,6 +18,6 @@ body:
     id: additional-context
 description: Suggest an idea for this project
 labels: [ "enhancement" ]
-assignees: [ <github_user_name> ]
+assignees: [ NTFSvolume ]
 title: "[FEATURE] <enter a title for your feature here>"
 name: Feature Request

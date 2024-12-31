@@ -22,7 +22,7 @@ If your issue appears to be a bug, and hasn't been reported, open a new issue. P
 Providing the following information will allow your issue to be dealt with quickly:
 
 - **Overview of the Issue** - always attach you logs to any new issue.
-- **Version** - what version of `<package_name>` are you running. You should always update to the latest release before opening an issue since
+- **Version** - what version of `PACKAGE_NAME` are you running. You should always update to the latest release before opening an issue since
 the issue may have been fixed already
 - **Motivation for or Use Case** - explain what are you trying to do and why the current behavior is a bug for you
 - **Operating System** - what OS and version are you using
@@ -31,13 +31,13 @@ the issue may have been fixed already
 - **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
   causing the problem (line of code or commit)
 
-You can open a new issue by providing the above information at https://github.com/<github_user_name>/<github_repo_name>/issues/new/choose.
+You can open a new issue by providing the above information at https://github.com/NTFSvolume/python-package-template/issues/new/choose.
 
 ### Submitting a Pull Request (PR)
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-- Search the [repository](https://github.com/<github_user_name>/<github_repo_name>/pulls) for an open or closed PR
+- Search the [repository](https://github.com/NTFSvolume/python-package-template/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 - Clone the repo and make your changes on a new branch in your fork
 - Follow [code style conventions](#code-style)
@@ -54,18 +54,18 @@ If everything is okay, your changes will be merged into the project.
 
 ## Setting up the development environment
 
-1. Install a [supported version of Python](https://www.python.org/downloads/). <package_name> supports python >=`3.11`
+1. Install a [supported version of Python](https://www.python.org/downloads/). PACKAGE_NAME supports python >=`3.11`
 
 2. Clone the repo
 
 ```shell
-git clone "https://github.com/<github_user_name>/<github_repo_name>"
-cd <github_repo_name>
+git clone "https://github.com/NTFSvolume/python-package-template"
+cd python-package-template
 ```
 
 3. Install `pipx` (optional, but recommended): https://pipx.pypa.io/stable/installation/
 
-4. Install `poetry`, the project management package `<package_name>` uses
+4. Install `poetry`, the project management package `PACKAGE_NAME` uses
 
 > If you installed `pipx`:
 
