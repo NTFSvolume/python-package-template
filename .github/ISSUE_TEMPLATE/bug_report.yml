@@ -1,0 +1,83 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!IMPORTANT]
+        > Update to the latest release of <package_name> before opening an issue.
+
+        Latest release:
+        [![PyPI - Version](https://img.shields.io/pypi/v/<package_name>)](https://pypi.org/project/<package_name>/)
+  - id: prechecks
+    attributes:
+      description: |
+        Before opening an issue, please confirm that you have read the relevant sections of the project's wiki to ensure your question or issue hasn’t already been addressed.
+      label: I have taken steps to troubleshoot my issue first
+      options:
+        - label: "I'm using the latest version of `<package_name>`"
+          required: true
+        - label: "I’ve checked existing issues to ensure this hasn’t been reported already."
+          required: true
+    type: checkboxes
+  - id: bug-description
+    attributes:
+      label: Describe the bug
+      placeholder: |
+        A clear and concise description of what the bug is.
+        - Describe the bug accurately.
+        - Add screenshots to help explain your problem (if applicable)
+    type: textarea
+    validations:
+      required: true
+  - id: desired-result
+    attributes:
+      label: Desired result
+      placeholder: Describe the desired result.
+    type: textarea
+    validations:
+      required: true
+  - id: reproduce-steps
+    attributes:
+      label: Steps to help reproduce the behavior
+      placeholder: |
+          1. In this environment...
+          2. With this config...
+          3. Run '...'
+          4. See error...
+    type: textarea
+    validations:
+      required: true
+  - id: environment
+    attributes:
+      description: What operating system, version, and/or environment are you working with?
+      label: Operating system/environment
+      placeholder: "Example: Windows 11 24H2"
+    type: input
+    validations:
+      required: true
+  - id: python-version
+    attributes:
+      description: |
+        What implementation and version of Python are you working with?
+        CPython is assumed unless indicated otherwise.
+      label: Python Version
+      placeholder: "Example: 3.12.0"
+    type: input
+    validations:
+      required: true
+  - id: <package_name>-version
+    attributes:
+      description: What version of `<package_name>` are you encountering this issue with?
+      label: <package_name> version
+    type: input
+    validations:
+      required: true
+  - id: anything-else
+    attributes:
+      description: Anything that will give us more context about the issue you are encountering!
+      label: Links, references, and/or additional comments?
+    type: textarea
+description: File a bug report
+labels: [ "bug" ]
+assignees: [ <github_user> ]
+title: "[BUG] <enter a bug description here>"
+name: Bug Report

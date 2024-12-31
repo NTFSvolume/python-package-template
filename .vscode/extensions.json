@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "yzhang.markdown-all-in-one",
+        "eamodio.gitlens",
+        "mechatroner.rainbow-csv",
+        "tamasfe.even-better-toml",
+        "esthorace.python-theme",
+        "redhat.vscode-yaml",
+        "DavidAnson.vscode-markdownlint",
+    ]
+}

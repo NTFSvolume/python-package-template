@@ -1,0 +1,24 @@
+{"files.exclude": {
+        ".git/": true,
+        ".vscode/*": false,
+        "**/*env": true,
+        "**/*venv": true,
+        "**/.*_cache*": true,
+        "**/__pycache__": true,
+    },
+    "python.analysis.exclude": [
+        "**/__pycache__",
+        "**/node_modules/",
+        "**/.git/",
+        "**/.*_cache",
+        "**/.vscode/",
+        "**/*env/",
+        "**/*venv/"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.cwd": "${workspaceFolder}/tests",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    }
+}
