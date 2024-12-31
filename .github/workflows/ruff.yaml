@@ -11,6 +11,6 @@ jobs:
         uses: astral-sh/ruff-action@v1
 
       - name: ruff format check
-        uses: astral-sh/ruff-action@v1
+        uses: astral-sh/ruff-action@v3
         with:
           args: "format --check"
